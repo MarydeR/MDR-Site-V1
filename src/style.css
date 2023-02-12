@@ -139,3 +139,25 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .homepagerows {
+    text-align: center;
+  }
+  .homepagetitles {
+    text-align: center;
+    font-size: 32px;
+  }
+  .rowlink {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+    padding: 20px 15px;
+  }
+}

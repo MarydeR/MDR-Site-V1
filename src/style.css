@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --tertiary-color: #9c58c0;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 100px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main {
+  margin: 80px auto;
+  max-width: 800px;
+}
+
+.secondsection {
+  margin: 60px auto;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  transition: ease-in-out;
+}
+.contact-link:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+  background: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: ease-in-out;
+  box-shadow: var(--box-shadow);
+}
+.about-link:hover {
+  color: white;
+  text-decoration: underline;
+  background: var(--tertiary-color);
+  border: 1px solid var(--tertiary-color);
+}
+
+.homepagerows {
+  background: transparent;
+  text-align: left;
+}
+.homepagetitles {
+  text-align: left;
+  font-size: 35px;
+}
+.rowlink {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.rowlink:hover {
+  color: var(--tertiary-color);
+  text-decoration: underline;
+  background: white;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.mainabout {
+  margin: 60px auto;
+  max-width: 90%;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
